@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+    <changeSet id="001" author="jin">
+
+        <insert tableName="user" schemaName="public" >
+            <column name="id" value="1"></column>
+            <column name="username" value="admin123"></column>
+            <column name="password" value="123456"></column>
+            <column name="email" value="165464614@qq.com"></column>
+            <column name="phone" value="15330774444"></column>
+            <column name="sex" value="男"></column>
+            <column name="creat_time" value="2017-12-01 00:00:00"></column>
+            <column name="update_time" value="2017-12-01 00:00:00"></column>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

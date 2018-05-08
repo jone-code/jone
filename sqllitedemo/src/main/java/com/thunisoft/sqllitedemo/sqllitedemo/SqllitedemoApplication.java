@@ -1,0 +1,13 @@
+package com.thunisoft.sqllitedemo.sqllitedemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SqllitedemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SqllitedemoApplication.class, args);
+
+	}
+}
